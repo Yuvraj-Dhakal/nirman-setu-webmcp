@@ -10,4 +10,4 @@ The WebMCP Inspector was used to test the agent with the following prompt:
 
 The agent selected the `find_delayed_projects` WebMCP tool, received the project data, and generated the final response.
 
-![WebMCP Agent Test](./screenshots/webmcp-agent-test.png)
+![WebMCP Agent Test](./public/screenshots/webmcp-agent-test.png)

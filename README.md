@@ -1,16 +1,13 @@
-# React + Vite
+## WebMCP Agent Demonstration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NirmanSetu exposes infrastructure monitoring capabilities as WebMCP tools that can be discovered and invoked by an AI agent.
 
-Currently, two official plugins are available:
+### Natural-Language Agent Test
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The WebMCP Inspector was used to test the agent with the following prompt:
 
-## React Compiler
+> Find all delayed infrastructure projects in NirmanSetu and show me their names, locations, and completion percentages.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The agent selected the `find_delayed_projects` WebMCP tool, received the project data, and generated the final response.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![WebMCP Agent Test](./screenshots/webmcp-agent-test.png)
